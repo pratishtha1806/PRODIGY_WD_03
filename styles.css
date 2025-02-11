@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 50px;
+}
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+#status {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 2px solid #333;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.cell:hover {
+    background: #ddd;
+}
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #005f73;
+}
